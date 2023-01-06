@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de proyectos de Raamses Chávez. Tecnologías: 
+    HTML, CSS, JavaScript y React presentes en los proyectos">
+    <link rel="icon" type="image/svg+xml" href="./img/logos/logo.svg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Portafolio - Raamses Chávez</title>
+</head>
+<body>
+
+    <div class="contenedor-animacion contenedor">
+        <div class="circulo"></div>
+    </div>
+
+    <header class="header contenedor">
+        <h1 class="header__heading text-center">Desarrollador web<span class="header__span">Frontend</span></h1>
+    </header>
+
+    <section class="filtros">
+        <h2 class="subtitulo text-center">Filtrar proyectos por tecnologías:</h2>
+        <nav class="nav-seleccionar-tec">
+            <a class="nav-seleccionar-tec__enlace htmlcss activo" href="#">HTML CSS</a>
+            <a class="nav-seleccionar-tec__enlace javascript border-right-color" href="#">JavaScript</a>
+            <a class="nav-seleccionar-tec__enlace react" href="#">React</a>
+        </nav> 
+    </section>
+
+    <div class="contenedor-animacion contenedor">
+        <div class="circulo circulo-2 d-none"></div>
+    </div>
+    
+    <main class="principal">
+        <!-- HTML y CSS -->
+        <!-- <div class="tecnologias mt-5 contenedor">
+            <div class="tecnologias__contenido">
+                <img class="tecnologias__logo" src="img/logos/html.svg" alt="logo HTML">
+                <h3 class="tecnologias__heading text-center mt-5">HTML</h3>
+            </div>
+            <div class="tecnologias__contenido">
+                <img class="tecnologias__logo" src="img/logos/css.svg" alt="logo CSS">
+                <h3 class="tecnologias__heading text-center mt-5">CSS</h3>
+            </div>
+        </div> -->
+
+        <!-- <div class="proyectos">
+            <div class="proyecto">
+                <div class="proyecto__contenedor">
+                    <picture>
+                        <source srcset="img/01_Airbnb.avif" type="image/avif">
+                        <source srcset="img/01_Airbnb.webp" type="image/webp">
+                        <img class="proyecto__imagen" loading="lazy" src="img/01_Airbnb.jpg" width="500" height="300" alt="imagen proyecto">
+                    </picture>
+                    <div class="proyecto__datos">
+                        <h3 class="proyecto__titulo">Airbnb-Clon</h3>
+                        <p class="proyecto__texto">Proyecto con el uso de la propiedad de liner-grandient-radius</p>
+                        <nav class="nav">
+                            <a class="nav__enlace web" target="_blank" rel="noopener noreferrer" href="#">Sitio</a>
+                            <a class="nav__enlace git" target="_blank" rel="noopener noreferrer" href="#">Código</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="proyecto invert">   
+                <div class="proyecto__contenedor invert">
+                    <picture>
+                        <source srcset="img/02_guitarLA.avif" type="image/avif">
+                        <source srcset="img/02_guitarLA.webp" type="image/webp">
+                        <img class="proyecto__imagen invert" loading="lazy" src="img/02_guitarLA.png" width="500" height="300" alt="imagen proyecto">
+                    </picture>
+                    <div class="proyecto__datos invert">
+                        <h3 class="proyecto__titulo">GuitarLA</h3>
+                        <p class="proyecto__texto">Proyecto con el uso de la propiedad de liner-grandient-radius</p>
+                        <nav class="nav">
+                            <a class="nav__enlace web" target="_blank" rel="noopener noreferrer" href="#">Sitio</a>
+                            <a class="nav__enlace git" target="_blank" rel="noopener noreferrer" href="#">Código</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto__contenedor">
+                    <picture>
+                        <source srcset="img/03_EscuelaCocina.avif" type="image/avif">
+                        <source srcset="img/03_EscuelaCocina.webp" type="image/webp">
+                        <img class="proyecto__imagen" loading="lazy" src="img/03_EscuelaCocina.png" width="500" height="300" alt="imagen proyecto">
+                    </picture>
+                    <div class="proyecto__datos">
+                        <h3 class="proyecto__titulo">Airbnb-Clon</h3>
+                        <p class="proyecto__texto">Proyecto con el uso de la propiedad de liner-grandient-radius</p>
+                        <nav class="nav">
+                            <a class="nav__enlace web" target="_blank" rel="noopener noreferrer" href="#">Sitio</a>
+                            <a class="nav__enlace git" target="_blank" rel="noopener noreferrer" href="#">Código</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="proyecto invert">
+                <div class="proyecto__contenedor invert">
+                    <picture>
+                        <source srcset="img/04_Meeti.avif" type="image/avif">
+                        <source srcset="img/04_Meeti.webp" type="image/webp">
+                        <img class="proyecto__imagen invert" loading="lazy" src="img/04_Meeti.png" width="500" height="300" alt="imagen proyecto">
+                    </picture>
+                    <div class="proyecto__datos invert">
+                        <h3 class="proyecto__titulo">GuitarLA</h3>
+                        <p class="proyecto__texto">Proyecto con el uso de la propiedad de liner-grandient-radius</p>
+                        <nav class="nav">
+                            <a class="nav__enlace web" target="_blank" rel="noopener noreferrer" href="#">Sitio</a>
+                            <a class="nav__enlace git" target="_blank" rel="noopener noreferrer" href="#">Código</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+    </main>
+
+    <section class="descripciones">
+        <img class="descripciones__wave" src="img/logos/wave.svg" width="500" height="300" alt="imagen wave">
+
+        <div class="descripciones__bg">
+            <div class="descripciones__grid contenedor">
+                <div class="descripciones__contenido">
+                    <h3 class="descripciones__heading">Sobre mí</h3>
+                    <p class="descripciones__texto">Buenas, soy Desarrollador Web 🌐 especializado
+                        en Frontend y estoy interesado en ser Full Stack, cuento con conocimientos de hardware
+                        y experiencia en atención al cliente 🙋‍♂️ en el área de
+                        telecomunicaciones.</p>
+                </div>
+                <div class="descripciones__contenido">
+                    <h3 class="descripciones__heading">Contacto</h3>
+                    <a href="https://www.linkedin.com/in/raamses-chavez-ing-software"
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="descripciones__enlace"
+                           title="Ir al Linkedin"
+                           >LinkedIn</a>
+                    <a href="https://t.me/RaamsesAbisai"
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="descripciones__enlace telegram"
+                           title="Enviar mensaje"
+                           >Telegram</a>
+                </div>
+                <div class="descripciones__contenido">
+                    <h3 class="descripciones__heading">Estudios</h3>
+                    <p class="descripciones__texto">Hice la carrera en la Universidad Estatal de Sonora y actualmente cursos con Código con Juan en Udemy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p class="footer__copyright text-center">Portafolio de Raamses Chávez.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/db.js"></script>
+</body>
+</html>
